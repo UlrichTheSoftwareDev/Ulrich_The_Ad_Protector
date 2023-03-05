@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Ulrich_The_Ad_Protector",
+  "version": "0.1",
+  "author": "Sacha Pateyron",
+  "description": "Block add",
+  "permissions": ["webRequest","webRequestBlocking","<all_urls>"],
+  "background" : {
+    "scripts": ["background.js"]
+  }
+}
